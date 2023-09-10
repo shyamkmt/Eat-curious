@@ -1,0 +1,924 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Helvetica, sans-serif;
+
+}
+/* css for all start  */
+
+.width{
+    width: 90%;
+    margin: 0 auto;
+}
+.head1{
+font-size: 55px;
+color: #042f1a;
+font-weight: 800;
+line-height: 50px;
+letter-spacing: -3px;
+
+}
+
+.para{
+    max-width: 392px;
+    color: #042f1a;
+    font-size: 20px;
+}
+
+.button{
+    background-color: #ff73b5;
+    font-weight: 800;
+    font-size: 22px;
+    width: 130px;
+    height: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    letter-spacing: -1px; 
+   
+}
+/* css for all end */
+
+/* header start  */
+
+.waves{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+header{
+    background-color: #042f1a;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.display{
+    display: none;
+}
+
+#navbar {
+    overflow: hidden;
+    /* background-color: #333; */
+    position: fixed;
+  }
+
+nav{
+    background-color: rgba(0,0,0,0.3); 
+    width: 100%;  
+}
+
+nav ul li .text{
+    margin: 10px 60px;
+     text-transform: uppercase;
+    font-weight: 600;
+    display: block;
+    text-decoration: none;
+    padding: 0.5em 0;
+    color: #fff; 
+    font-size: 18px;
+}
+
+nav ul li .logo, .logo2{
+       font-size: 30px;
+       letter-spacing: 1px;
+       line-height: 55px;
+       text-align: center;
+       margin-top: -10px;
+       font-family: 'Rubik Wet Paint', cursive;
+       color: #f34364;
+}
+
+.logo2{
+    display: none;
+}
+
+nav ul li .logo:hover{
+    color: #F95B77;
+}
+
+nav .bg-pink{
+    background-color: #ff73b5;
+}
+
+.heading-1, .heading-2{
+font-size: 200px;
+font-weight: 900;
+color: #fff;
+text-transform: uppercase;
+letter-spacing: -18px;
+text-align: center;
+z-index: 1;
+}
+
+header img{
+    width: 30%;
+    z-index: 2;
+    position: relative;
+    top: -140px;    
+    left: 35%;
+}
+
+.heading-2{
+    z-index: 3;   
+    position: relative;
+    top: -370px;
+}
+
+header .text:hover{
+    color: #f34364;
+}
+
+nav .btn{
+    background-color: #f34364;
+    color: #fff;
+    font-weight: bold;
+    width: 90px;
+    height: 44px;
+}
+nav .btn:hover{
+    background-color: none;
+    border: 1px solid #f34364;
+}
+
+/* header end */
+
+
+/* Pink Start  */
+
+.pink{
+    background-color: #ff73b5;
+    padding: 0px 0 150px 0;
+}
+
+.pink .pink-curly{
+ width: 6%;
+}
+
+.pink .cap-img{
+    width: 90%;
+    height: 100%;
+    /* margin-top: 80px; */
+}
+
+/* Pink End  */
+
+
+/* White sec start */
+
+.white{
+    padding: 100px 0 150px 0;
+}
+
+
+.white .head1{
+    max-width: 1200px;
+}
+
+.white .earth-lap{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.white .three-waves{
+    width: 20%;
+    position: relative;
+    left: 500px;
+}
+
+/* White sec end */
+
+/* Green Sec Start  */
+
+#green{
+    padding: 100px 0 150px 0;
+    background-color: #d4ed6d;
+}
+
+#green .green-waves{
+  margin-bottom: 50px;
+  position: relative;
+  left: 200px;   
+}
+
+#green .green-main{
+   width: 90%;
+}
+/* Green Sec End */
+
+
+/* Green-2 Sec start  */
+.green-2{
+    padding: 100px 0 150px 0;
+    background-color: #042f1a;
+}
+
+.green-2 .head1, .green-2 .para{
+    color: #fff;
+}
+
+.green-2 .green2-main{
+    width: 88%;
+}
+
+.green-2 .green2-waves{
+  align-items: end;
+  float: right;
+}
+
+/* Green-2 Sec end */
+
+/* White2 Sec start  */
+
+.white-2{
+    padding: 50px 0 200px 0;
+}
+
+.white-2 .head1{
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.white-2 h2{
+    margin: 60px 0 15px 0;
+    text-transform: uppercase;
+    line-height: .9em;
+    font-weight: 500;
+    color: #042f1a;
+}
+
+.white-2 p{
+    font-size: 16px;
+}
+
+/* White2 Sec end */
+
+/* Green-curve sec start  */
+
+ .green-curve{
+    width: 100%;
+    height: 500px;
+    border-top-left-radius: 100% 150%;
+    border-top-right-radius: 100% 150%;
+    transform: rotate(0deg);
+    position: relative;
+    overflow: hidden;
+} 
+
+.green-curve:after{
+    content: '';
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    background-color: #042f1a;
+}
+
+.green-curve .head-text{
+    position: absolute;
+    top: 40px;
+    left: 70px;
+    width: 90%;
+    z-index: 3;
+    transition: transform .5s 0s;
+}
+.green-curve .head-text:hover{
+    transform: scale(1.02);
+    margin-top: 30px;
+    transform-origin: 50% 50%;
+    cursor: pointer;
+}
+
+/* Green-curve sec end  */
+
+/* Boxes-sec Start */
+
+.boxes-sec{
+   background-color: #042f1a;
+   padding: 50px 0;
+}
+
+.boxes-sec .box{
+    height: 450px;
+    margin-bottom: 33px;
+    border-radius: 10px;
+    overflow: hidden;  
+    padding: 22px;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.boxes-sec .text{
+    font-size: 99px;
+    font-weight: 900;
+    color: #042f1a;
+    line-height: 80px;
+    text-align: center;
+}
+
+.boxes-sec img{
+    width: 100%;
+    padding: 0 44px;
+    position: relative;
+    top: 44px;  
+}
+
+.boxes-sec .box:hover{
+    background-color: #f34364;
+    cursor: pointer;
+    box-shadow: 2px 113px 144px #fff;
+}
+
+.boxes-sec .green{
+    background-color:#1ABE71 ;
+}
+.boxes-sec .yellow{
+    background-color:#FFB500 ;
+}
+.boxes-sec .pink{
+    background-color:#ff73b5 ;
+}
+
+.boxes-sec button{
+    background-color: #ff73b5;
+    color: #042f1a;
+    position: relative;
+    left: 43%;
+}
+
+.line{
+    margin-top: 50px;
+    width: 100%;
+    height: 1px;
+    background-color: #ff73;     
+}
+    
+/* Boxes-sec end  */
+
+/* Plant sec start  */
+
+#plant{
+    background-color: #042f1a;
+    padding: 100px 0;    
+}
+
+#plant .content
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#plant .head1, #plant .para{
+    color: #fff; 
+    max-width: 100%;
+}
+#plant .para{
+    text-align: justify;
+    word-spacing: 0px;
+}
+
+#plant img{
+   width: 100%;
+}
+
+#plant .button{
+ width: 280px;
+ position: relative;
+ left: 0%;
+ margin-top: 22px;
+ background-color: #ff73b5;
+ color: #fff;
+}
+
+/* Plant sec end */
+
+/*carousel sec start  */
+
+#carousel{
+    background-color: #042f1a;
+    padding: 100px 0;
+    padding: 0 0 200px 0;
+    margin: 0;
+}
+#carousel .item{
+    border-radius: 15px;
+    height: 100vh;
+    overflow: hidden; 
+    filter: brightness(70%);  
+}
+
+#carousel button{
+     width: 100px;
+     height: 40px;
+     rotate: 6deg;
+     background-color: #ff73b5;
+     margin-top: 50px;
+     font-size: 22px; 
+}
+
+#carousel img{
+    height: 100vh;
+    transition: transform .4s 0s;
+    width: 200%;
+    position: relative;
+    left: -180px;
+    top: -70px;
+    filter: brightness(70%);   
+}
+
+#carousel img:hover{
+    transform: scale(1.05);
+    transform-origin: 50% 50%;
+    cursor: pointer;
+}
+
+#carousel .btn{
+    margin: 15px 22px;
+    width: 100px;
+    height: 40px;
+    color: #042f1a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    rotate: 10deg;
+    float: right;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    border: none;
+    position: relative;
+    z-index: 5;
+    float: right;  
+}
+
+
+  #carousel .car-green, #carousel .green-btn{
+    background-color: #1ABE71;
+  }
+  
+  #carousel .car-yellow, #carousel .yellow{
+    background-color: #FFB500;
+  }
+  
+  #carousel .car-red, #carousel .red{
+    background-color: #f34364;
+  }
+
+  #carousel .yellow{
+    background-color: #FFB500;
+  }
+  #carousel .green-btn{
+    background-color: #1ABE71;
+  }
+  #carousel .red{
+    background-color: #ff73b5;
+  }
+
+/*carousel sec end */
+
+/* INTRIGUED start  */
+
+#intrigued{
+    padding: 150px 0;
+    align-items: center;   
+}
+
+#intrigued .head1{
+    font-size: 66px;
+}
+
+#intrigued .button{
+    width: 170px;
+    left: 42%;
+    position: relative;
+    top: -90px;
+    z-index: 2;
+}
+
+#intrigued img{
+    width: 25%;
+    position: relative;
+    left: 23%;
+    margin-top: 25px;
+}
+
+#intrigued 
+
+/* INTRIGUED end  */
+
+
+/* footer start  */
+
+footer{
+    background-color: #ff73b5;
+}
+
+.pink-curve{
+    width: 100%;
+    height: 550px;
+    border-top-left-radius: 100% 150%;
+    border-top-right-radius: 100% 150%;
+    transform: rotate(0deg);
+    position: relative;
+    overflow: hidden;
+    background-color: #ff73b5;
+}
+
+footer img{
+    width: 90%;
+    margin: 50px auto;
+    margin-left:70px;
+    transition: transform .5s 0;
+    
+}
+
+footer img:hover{
+    cursor: pointer;
+    transform: scale(1.02); 
+    margin-top: 30px;
+}
+
+footer .content{
+    background-color: #ff73b5;
+    padding-bottom: 50px;
+}
+
+
+footer form input{
+    width: 95%;
+    background-color: #fff;
+    border: none;
+    padding: 5px 15px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+footer .button{
+    background-color: #042f1a;
+    color: #fff;
+    font-weight: 600;
+    height: 50px;
+    margin-left: 60px;
+}
+
+footer .d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .fa{
+    font-size: 22px;
+    margin-right: 22px;
+}
+
+footer .d-flex p{
+    display: inline;
+    font-weight: 500;
+}
+
+footer .right span{
+    border-right: 1px solid #042f1a;
+    padding-right: 5px;
+}
+
+footer .right, footer .left{
+    margin-top: 33px;
+}
+
+/* footer end */
+
+/* media query */
+
+@media screen and (max-width:1199px) {
+   
+nav ul li  .logo{
+   position: absolute;
+   top: 0;
+   font-size: 0;
+
+}
+
+.logo2{
+    display: block;
+}
+
+footer .button {
+    margin-left: 22px;
+}
+
+@media screen and (max-width:1250px) {
+    html, body{
+        width: 100%;
+        margin: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;}
+    }
+
+    @media screen and (max-width:992px) {
+
+        .para{
+            max-width: 100%;
+        }
+
+        #main-text{
+            margin-top: 90px;
+        }
+        .heading-1, .heading-2{
+            font-size: 150px;
+            letter-spacing: -10px;
+        }
+        .heading-1{
+            margin-top: -22px;
+        }
+        .heading-2{
+            margin-top: 55px;
+        }
+
+        header img{
+            margin-top: 33px;
+        }
+
+        .head1{
+            margin-top: 11px;
+        }
+
+        footer .button{
+        margin-left: 30px;
+        }
+
+        .boxes-sec{
+            padding-top: 0;
+        }
+
+        .boxes-sec .text{
+            font-size: 66px;
+        }
+
+        .boxes-sec .line{
+            margin-top: 90px;
+        }
+
+        .white-2 .box{
+            border: 1px solid red;
+            margin-bottom: 22px;
+            padding-top: 22px;
+        }
+
+        .white-2 .container .row{
+           text-align: center;
+        }
+
+        .white-2 h2{
+            line-height: 0;
+        }
+
+        .white-2 .head1{
+            margin-bottom: 50px;
+        }
+
+        .white .earth-lap{
+            width: 60%;
+        }
+
+        #green .box, .green-2 .box{
+            text-align: center;
+        }
+
+        #green .green-main{
+            width: 60%;
+        }
+
+        .green-2 .green2-main{
+            width: 60%;
+            margin-bottom: 33px;
+        }
+
+        .green, .green-2, .white, .pink, .white-2, #plant{
+            padding: 50px 0;
+        }
+
+        .green-curve .head-text{
+            width: 100%;
+            left: 5px;
+            top: 100px;
+        }
+
+        #plant{
+            text-align: center;
+        }
+
+        #plant .head1{
+            margin: 33px 0;
+        }
+        
+        #carousel img{
+            left: -150px;
+        }
+
+        #intrigued img{
+            width: 40%;
+            position: relative;
+            left: 12%;
+            margin-top: 40px;
+        }
+
+        footer img{
+            width: 100%;
+            margin: 0;
+            padding-top: 100px;
+        }
+
+        footer form input{
+            margin-bottom: 22px;
+        }
+
+        footer .button{
+            margin: 0;
+        }
+    
+    }
+
+        @media screen and (max-width:815px) {
+             .heading-1, .heading-2{
+            font-size: 110px;
+            letter-spacing: -5px;
+            }
+
+            .heading-1{
+            margin-top: -22px;
+            letter-spacing: -2px;
+            }
+
+            .heading-2{
+            margin-top: 100px;
+            }
+
+            header img{
+            margin-top: 66px;
+            }
+            }
+
+         @media screen and (max-width:650px) {
+
+            #main-text{
+                margin-top: 150px;
+            }
+
+             .heading-1, .heading-2{
+            font-size: 90px;
+             }
+
+            .heading-2{
+            margin-top: 150px;
+            }
+
+            header img{
+                width: 50%;
+                left: 25%;
+                margin-top: 88px;
+            }
+
+           .green, .green-2, .white, .pink, .white-2, #plant{
+            text-align:  center;
+        }
+        .green-curve, .pink-curve{
+            height: 400px;
+        }
+
+        
+
+.boxes-sec button {
+    left: 35%;
+}
+
+        
+.white .three-waves{
+    width: 30%;
+    position:relative;
+    left: 10px;
+    top: 30px;
+    
+}
+
+.green-2 .green2-waves{
+  position: relative;
+  left: -150px;
+}
+
+#green .green-waves {
+    margin-bottom: 50px;
+    position: relative;
+    left: 12px;
+}
+
+#intrigued img {
+    width: 45%;;
+    left: 0%;
+}
+
+#intrigued .button {
+    left: 37%;
+    top: -76px;
+}
+
+.pink .pink-curly{
+ width: 16%;
+}
+
+footer .d-flex{
+    flex-direction: column;
+}
+
+
+
+}
+
+@media screen and (max-width: 491px) {
+
+    #main-text{
+        margin-top: 150px;
+    }
+
+     .heading-1, .heading-2{
+      word-spacing: 0;
+      line-height: 80px;
+     }
+
+     header img{
+        margin-top: 120px;
+    }
+
+    .head1{
+        font-size: 30px;
+    }
+
+    .para{
+        font-size: 15px ;
+    }
+
+    .green-curve .head-text {
+        width: 90%;
+        left: 19px;
+        top: 125px;
+    }
+
+    .boxes-sec{
+        background-color: #042f1a;
+        padding: 0;
+        margin-top: -50px;
+     }
+
+     .boxes-sec .text{
+        font-size: 66px;
+        line-height: 60px;
+     }
+     
+
+    .green-curve:after {
+        height: 357px;
+    }
+
+    #carousel img{
+        width: 100%;
+        left: 0;
+    }
+
+    #carousel .item{
+        margin: 0 44px;
+    }
+
+    #green{
+        padding-bottom: 50px;
+    }
+
+    .green-2 .green2-waves {
+        position: relative;
+        left: -105px;
+    }
+    #intrigued img {
+        width: 66%;
+        left: 18%;
+        top: -44px;
+    }
+    #intrigued .button {
+        left: 31%;
+        top: 51px;
+    }
+
+    .pink-curve {
+        height: 300px;
+
+}
+}
+
